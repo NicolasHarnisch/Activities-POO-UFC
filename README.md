@@ -1,4 +1,4 @@
-![Language](https://img.shields.io/badge/Language-OOP-blue.svg)
+![Language](https://img.shields.io/badge/Language-Java-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
 
 # Object-Oriented Programming - UFC 🎓
@@ -36,8 +36,8 @@ It includes solutions to various assignment lists and a final project that conso
 
 * **Paradigm:** Object-Oriented Programming (OOP)  
 * **Key Concepts:** Classes, Objects, Encapsulation, Inheritance, Polymorphism, Abstraction, Composition, and File Persistence.  
-* **Languages Used:** (C++, Java, or other as applicable)  
-* **Compiler/Runtime:** GCC (for C++), JDK (for Java), or equivalent environment.
+* **Languages Used:** Java
+* **Compiler/Runtime:** JDK (for Java), or equivalent environment.
 
 ---
 
