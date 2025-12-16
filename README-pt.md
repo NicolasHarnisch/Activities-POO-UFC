@@ -1,7 +1,9 @@
 # ☕ Portfólio de Atividades: Programação Orientada a Objetos
 
-> **Universidade Federal do Ceará (UFC) – Campus Russas**  
-> **Curso:** Ciência da Computação  
+> **Universidade Federal do Ceará (UFC) – Campus Russas**
+> 
+> **Curso:** Ciência da Computação
+> 
 > **Disciplina:** Programação Orientada a Objetos (POO)
 
 Este repositório serve como um **portfólio acadêmico**, documentando minha trajetória e evolução técnica no desenvolvimento de software com **Java**.  
