@@ -1,6 +1,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
 
+> [Ler em Português](README-pt.md)
 # Object-Oriented Programming - UFC 🎓
 
 This repository contains the practical assignments and the final project developed for the **Object-Oriented Programming** course at the Federal University of Ceará (UFC).  
