@@ -1,71 +1,82 @@
-![Language](https://img.shields.io/badge/Language-Java-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
+# ☕ Activity Portfolio: Object-Oriented Programming
+> [Ler em Português](README-pt.md)
 
-# Object-Oriented Programming - UFC 🎓
+> **Federal University of Ceará (UFC) – Russas Campus**
+> 
+> **Couser:** Computer Science
+> 
+> **Subject:** Object-Oriented Programming (OOP)
 
-This repository contains the practical assignments and the final project developed for the **Object-Oriented Programming** course at the Federal University of Ceará (UFC).  
-The focus is on applying **OOP principles** to design modular, reusable, and scalable software systems.
+This repository serves as an academic portfolio, documenting my trajectory and technical evolution in software development with Java.
 
----
-
-### 📖 About This Repository
-
-The main goal of this repository is to document the practical application of **object-oriented concepts** such as encapsulation, inheritance, and polymorphism.  
-It includes solutions to various assignment lists and a final project that consolidates the knowledge acquired throughout the course.
+Here are gathered complete systems, practical exercises, and refactorings, organized to demonstrate the application of the main concepts of Object-Oriented Programming and Software Engineering.
 
 ---
 
-### 🚀 Activities & Projects Developed
+## 📂 Repository Organization
 
-✅ **Final Project: Employee Management System**  
-* A complete console application developed using object-oriented design principles.  
-* Features CRUD functionalities, data encapsulation, file persistence, and modular class structures.
+The project was structured to clearly separate the **authorial (Student)** development from the **reference and answer key (Professor)** materials, facilitating comparative study and code maintenance.
 
-✅ **List 3: Inheritance and Polymorphism**  
-* Exercises focusing on class hierarchies, method overriding, and the use of abstract classes and interfaces.
+```text
+Activities-POO-UFC/
+├── 👨‍🎓 Aluno/                       # Student's implementations (Author)
+│   ├── Aula 04 - Conta Bancaria
+│   ├── Aula 05 - Sistema de Cursos
+│   ├── Aula 07 - Sistema de Loja
+│   ├── Aula 10 - Sistemas de Pagamentos
+│   ├── Aula 11 - Sistema Transporte - Prática Avaliativa
+│   ├── Aula 13 - Lista de Exercícios
+│   ├── Aula 15 - Resolução Prova 01
+│   ├── Aula 18 - Atividade de Exceções
+│   └── Aula 20 - Conta Conjunta
+│
+├── 👨‍🏫 Professor/                   # Base projects and reference solutions
+│   ├── Aula 07 - Sistema de Loja
+│   ├── Aula 10 - Sistemas de Pagamentos
+│   ├── Aula 17 - Sistema de Encomenda
+│   └── Aula 18 - Resolução Prova 01
+│
+├── README.md
+└── LICENSE
 
-✅ **List 2: Classes, Objects, and Encapsulation**  
-* Solutions to problems that reinforce the use of classes, constructors, getters/setters, and encapsulated data handling.
-
-✅ **Practical Activities**  
-* Additional exercises designed to strengthen the understanding of OOP concepts such as composition, associations, and modular programming.
-
----
-
-### 💻 Technologies and Concepts
-
-* **Paradigm:** Object-Oriented Programming (OOP)  
-* **Key Concepts:** Classes, Objects, Encapsulation, Inheritance, Polymorphism, Abstraction, Composition, and File Persistence.  
-* **Languages Used:** Java
-* **Compiler/Runtime:** JDK (for Java), or equivalent environment.
-
----
-
-### ⚙️ How to Run
-
-This repository contains multiple separate projects and assignment lists. To run a specific activity:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/NicolasHarnisch/Activities-POO-UFC.git
-    ```
-
-2.  **Navigate to the desired folder:**
-    Each activity is organized into its own folder (e.g., `Final-Project`, `List-2`, etc.).
-    ```bash
-    cd "Activities-POO-UFC"
-    ```
-
-3.  **Compile and run the program:**
-    Depending on the language used, commands may vary:
-
-    ```bash
-    # Example for Java
-    javac Main.java
-    java Main
+```
+## 🚀 Projects and Developed Systems
+Below, I detail the main modules built, highlighting the complexity and concepts applied in each solution.
 
 ---
 
-### 📩 Contact
+### 1. Modeling and Business Rules
+| Project | Description and Applied Concepts |
+| :--- | :--- |
+| **🏦 Banking System** | Fundamental implementation of **Encapsulation**. Strict control of attribute access (balance), with validations for withdrawals, deposits, and transfers. |
+| **🎓 Course System** | Focus on **Class Relationships** (Association, Aggregation, and Composition). Complex management of links between Students, Classes, and Subjects. |
+| **🛍️ Store System** | Application of **Inheritance and Polymorphism**. Creation of product hierarchies with distinct behaviors for tax and price calculations. |
 
-If you have any suggestions or questions, feel free to open an *issue* or get in touch!
+### 2. Architecture, Robustness, and Quality
+| Project | Description and Applied Concepts |
+| :--- | :--- |
+| **💳 Payment System** | Use of **Interfaces and Abstract Classes** to create flexible contracts, allowing multiple payment methods (Boleto, Pix, Card) without tight coupling. |
+| **🚌 Transport System** | *Evaluative Practice.* Development of logic for routes and fleet management, requiring requirement interpretation and UML modeling. |
+| **⚠️ Error Handling** | Implementation of **Custom Exceptions** and robust `try-catch` blocks. The system prevents critical failures (like negative stock) by throwing clear errors. |
+| **✅ Automated Testing** | Introduction to software quality with **JUnit**, ensuring critical methods work as expected before final implementation. |
+
+---
+
+## 🛠️ Technologies Used
+
+- Java (JDK 25)
+- VS Code / IntelliJ IDEA
+- Git and GitHub
+- JUnit 5
+- UML and Draw.io
+
+---
+
+## 🧠 Skills Developed
+
+1. Encapsulation
+2. Inheritance
+3. Polymorphism
+4. Abstraction
+
+---
