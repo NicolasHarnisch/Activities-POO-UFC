@@ -2,12 +2,28 @@ import java.util.Date;
 
 public class Consulta extends Atendimento {
 	
-	protected int duracaoMinutos;
-	protected double valorBase;
+	private int duracaoMinutos;
+	private double valorBase;
 	
-	Consulta(int codigo, String nomePaciente, String cpf, Date data, Profissional profissionalResponsavel, int duracaoMinutos, double valorBase) {
+	Consulta(int codigo, String nomePaciente, String cpf, String data, Profissional profissionalResponsavel, int duracaoMinutos, double valorBase) {
 		super(codigo, nomePaciente, cpf, data, profissionalResponsavel);
 		this.duracaoMinutos = duracaoMinutos;
+		this.valorBase = valorBase;
+	}
+
+	public int getDuracaoMinutos() {
+		return duracaoMinutos;
+	}
+
+	public void setDuracaoMinutos(int duracaoMinutos) {
+		this.duracaoMinutos = duracaoMinutos;
+	}
+
+	public double getValorBase() {
+		return valorBase;
+	}
+
+	public void setValorBase(double valorBase) {
 		this.valorBase = valorBase;
 	}
 

@@ -17,19 +17,13 @@ public class Medico extends Profissional{
 		this.especialidade = especialidade;
 	}
 
-
-
 	public double getSalarioBase() {
 		return salarioBase;
 	}
 
-
-
 	public void setSalarioBase(double salarioBase) {
 		this.salarioBase = salarioBase;
 	}
-
-
 
 	@Override
 	public String getTipoProfissional() {
@@ -42,6 +36,4 @@ public class Medico extends Profissional{
 		System.out.println("Especialidade: " + this.especialidade);
 		System.out.println("Salario Base: " + this.salarioBase);
 	}
-	
-
 }

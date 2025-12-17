@@ -1,16 +1,31 @@
 import java.util.Date;
 
 public class Procedimento extends Atendimento{
+	private String material;
+	private double custoOperacional;
 	
-	String material;
-	double custoOperacional;
-	
-	Procedimento(int codigo, String nomePaciente, String cpf, Date data, Profissional profissionalResponsavel, String material, double custoOperacional) {
+	Procedimento(int codigo, String nomePaciente, String cpf, String data, Profissional profissionalResponsavel, String material, double custoOperacional) {
 		super(codigo, nomePaciente, cpf, data, profissionalResponsavel);
 		this.material = material;
 		this.custoOperacional = custoOperacional;
 	}
-	
+
+	public String getMaterial() {
+		return material;
+	}
+
+	public void setMaterial(String material) {
+		this.material = material;
+	}
+
+	public double getCustoOperacional() {
+		return custoOperacional;
+	}
+
+	public void setCustoOperacional(double custoOperacional) {
+		this.custoOperacional = custoOperacional;
+	}
+
 	@Override
 	public double calcularValor() {
 		return this.custoOperacional + 50;

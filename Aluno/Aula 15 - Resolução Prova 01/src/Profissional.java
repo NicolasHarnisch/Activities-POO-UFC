@@ -1,5 +1,4 @@
 public abstract class Profissional {
-	
 	String nome;
 	String cpf;
 	String registro;
@@ -9,7 +8,31 @@ public abstract class Profissional {
 		this.cpf = cpf;
 		this.registro = registro;
 	}
-	
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public String getRegistro() {
+		return registro;
+	}
+
+	public void setRegistro(String registro) {
+		this.registro = registro;
+	}
+
 	public abstract String getTipoProfissional();
 	
 	public void imprimeDados() {

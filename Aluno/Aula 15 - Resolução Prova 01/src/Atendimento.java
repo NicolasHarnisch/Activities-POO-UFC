@@ -5,10 +5,10 @@ public abstract class Atendimento {
 	private int codigo;
 	private String nomePaciente;
 	private String cpf;
-	private Date data;
+	private String data;
 	private Profissional profissionalResponsavel;
 	
-	Atendimento(int codigo, String nomePaciente, String cpf, Date data, Profissional profissionalResponsavel) {
+	Atendimento(int codigo, String nomePaciente, String cpf, String data, Profissional profissionalResponsavel) {
 		this.codigo = codigo;
 		this.nomePaciente = nomePaciente;
 		this.cpf = cpf;
@@ -40,11 +40,11 @@ public abstract class Atendimento {
 		this.cpf = cpf;
 	}
 
-	public Date getData() {
+	public String getData() {
 		return data;
 	}
 
-	public void setData(Date data) {
+	public void setData(String data) {
 		this.data = data;
 	}
 
@@ -59,7 +59,7 @@ public abstract class Atendimento {
 	public abstract double calcularValor();
 	
 	public void imprimeResumo() {
-		System.out.println("Codigo: " + this.codigo);
+		System.out.println("Código: " + this.codigo);
 		System.out.println("Nome Paciente: " + this.nomePaciente);
 		System.out.println("CPF Paciente: " + this.cpf);
 		System.out.println("Data: " + this.data);
